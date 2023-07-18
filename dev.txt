@@ -8,3 +8,8 @@ netstat -anb
 
 C:\Windows\System32\Drivers\etc\hosts
 127.0.0.1 posts.com
+
+
+skaffold schema list
+skaffold fix
+skaffold dev
