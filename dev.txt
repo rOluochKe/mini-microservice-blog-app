@@ -1,0 +1,10 @@
+docker build -t iamraymond/event-bus .
+docker push iamraymond/event-bus
+
+kubectl apply -f event-bus-depl.yaml
+kubectl rollout restart deployment posts-depl
+
+netstat -anb
+
+C:\Windows\System32\Drivers\etc\hosts
+127.0.0.1 posts.com
